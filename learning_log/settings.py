@@ -144,7 +144,7 @@ if cwd == '/app' or cwd[:4] == '/tmp':
     # Honor the 'X-Forwarded-Proto' header for request.is_secure()
     SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
     # Allow only Heroku to host the project
-    ALLOWED_HOSTS = ['https://learning-log-python-crash.herokuapp.com']
+    ALLOWED_HOSTS = ['learning-log-python-crash.herokuapp.com']
 
     DEBUG = False
 
